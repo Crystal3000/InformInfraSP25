@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="moreforms.html">More Forms</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Containers and Forms</h1>
+
+    <form action="index.html" method="get">
+      <div>
+        <label for="favoriteSnack">Favorite Snack:</label>
+        <input
+          type="text"
+          name="favoriteSnack"
+          id="favoriteSnack"
+          placeholder="chocolate"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="leastFavoriteSnack">Least Favorite Snack</label>
+        <input
+          type="text"
+          name="leastFavoriteSnack"
+          id="leastFavoriteSnack"
+          value="Harry Potter Jelly Beans"
+        />
+      </div>
+
+      <div>
+        <label for="explain">Explain You Choices</label>
+        <textarea name="explain" id="explain" cols="50"></textarea>
+      </div>
+      <input type="submit" value="Submit Snacks" />
+    </form>
+
+    <div>
+      <label for="snackPic">Picture of Snack</label>
+      <input type="file" name="snackPic" id="snackPic" />
+    </div>
+
+    <div>
+      <label for="snackColorMood"> Snack Color Mood</label>
+      <input type="color" name="snackColorMood" id="snackColorMood" />
+    </div>
+  </body>
+</html>
