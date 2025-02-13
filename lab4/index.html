@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Starting Lineup</title>
+  </head>
+  <body>
+    <h1>Starting Lineup</h1>
+
+    <form action="index.html">POST</form>
+
+    <fieldset>
+      <legend>Status:</legend>
+      <div>
+        <input type="radio" name="draft" id="draft" />
+        <label for="draft">Draft</label>
+
+        <input type="radio" name="final" id="final" />
+        <label for="final">Final</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div>
+        <label for="date">Date:</label>
+        <select name="gameDate" id="gameDate">
+          <option value="March 20">March 20</option>
+          <option value="March 24">March 24</option>
+          <option value="April 2">April 2</option>
+          <option value="April 6">April 6</option>
+          <option value="April 13">April 13</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Players:</legend>
+     
+        <p><input type="checkbox" name="players" id="player1" />
+        <label for="player1">Aarav Agarwal</label></p>
+        <p></p><input type="checkbox" name="players" id="player2" />
+        <label for="player2">Ava Johnson</label></p>
+        <p></p><input type="checkbox" name="players" id="player3" />
+        <label for="player3">Julio Otriz</label></p>
+        <p></p><input type="checkbox" name="players" id="player4" />
+        <label for="player4">Liam Rubio</label></p>
+        <p></p><input type="checkbox" name="players" id="player5" />
+        <label for="player5">Emma Witherspooon</label></p>
+     
+    </fieldset>
+
+    <div>
+      <input type="submit" value="Submit" />
+    </div>
+  </body>
+</html>
