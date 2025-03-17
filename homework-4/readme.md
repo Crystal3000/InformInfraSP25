@@ -12,4 +12,4 @@ Couldn't figure out how to make more decisions :(
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
+[Blog Page](https://github.com/Crystal3000/InformInfraSP25/tree/main/homework-4)
