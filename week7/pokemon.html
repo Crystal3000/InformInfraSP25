@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week 7</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/png" />
   </head>
   <body>
     <nav>
@@ -15,15 +14,21 @@
         <li><a href="objects.html">Complex Objects</a></li>
       </ul>
     </nav>
-    <h1>Home</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur
-      quisquam, repellat voluptatibus eaque dolorem nesciunt consectetur nulla
-      dolorum dolores!
-    </p>
 
-    <ul id="pets"></ul>
+    <main>
+      <h1>Window Methods (Pokemon)</h1>
 
-    <script src="js/home.js"></script>
+      <button onclick="showAlert()">Alert</button>
+      <button id="confirm-btn">Confirm</button>
+      <button onclick="showPrompt()">Prompt</button>
+
+      <div>
+        <button onclick="startJourney()">Start Journey</button>
+
+        <section id="journey"></section>
+      </div>
+    </main>
+
+    <script src="js/pokemon.js"></script>
   </body>
 </html>

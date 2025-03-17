@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: gray;
+  color: beige;
+}
+main {
+  padding: 40px;
+}
+
+body main div button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 30px;
+  width: 100px;
+}
