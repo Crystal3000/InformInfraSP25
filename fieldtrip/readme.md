@@ -21,3 +21,5 @@ https://www.yelp.com/?msockid=0f3acedb06a86bea1696df04073b6ad5
 It will sort of be like these, but not. I don't want it to be really complex, I want it to be something that looks like an old man in his 50s made in the early 2000s to share his opinions on things that don't matter, just like what I'll be sharing my opinion on. So something really simple. I want to use maybe the color yellow to make it cheery and then everythign else will be basic webstyling. Maybe it will look like a backend developer trying out frontend styling for their portfolio website, so it won't look very good. That's the point.
 
 I'm not sure what data structure I'm supposed to be describing, but I'll have a carousel of pictures at the top or sprinkled around in between text. I'll have the text very blocky and number all the different activities that are available.
+
+https://github.com/Crystal3000/InformInfraSP25/tree/main/fieldtrip
